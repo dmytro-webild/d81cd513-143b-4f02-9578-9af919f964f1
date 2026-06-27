@@ -47,27 +47,21 @@ export default function Layout() {
       copyright="© 2026 Brand. All rights reserved."
       columns={[
         {
-          links: [
+          title: "Company",          items: [
             {
-              href: "#features"},
+              label: "Features",              href: "#features"},
             {
-              href: "#pricing"},
+              label: "Pricing",              href: "#pricing"},
           ],
         },
         {
-          links: [
+          title: "Support",          items: [
             {
-              href: "#about"},
+              label: "About",              href: "#about"},
             {
-              href: "#contact"},
+              label: "Contact",              href: "#contact"},
           ],
         },
-      ]}
-      links={[
-        {
-          href: "#"},
-        {
-          href: "#"},
       ]}
     />
       </SectionErrorBoundary>
