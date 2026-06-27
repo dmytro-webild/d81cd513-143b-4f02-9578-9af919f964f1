@@ -39,6 +39,7 @@ export default function Layout() {
       <SectionErrorBoundary name="navbar">
         <NavbarFloatingLogo
       logo="Dyson Refurb"
+      logoImageSrc="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=128&h=128&fit=crop&q=80"
       ctaButton={{
         text: "Buy Now",
         href: "#buy",
@@ -54,7 +55,7 @@ export default function Layout() {
       copyright="© 2026 Brand. All rights reserved."
       columns={[
         {
-          heading: "Product",
+          title: "Product",
           links: [
             {
               text: "Features",
