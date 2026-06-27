@@ -8,28 +8,22 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 export default function Layout() {
   const navItems = [
   {
-    "name": "Features",
-    "href": "#features"
+    "name": "Features",    "href": "#features"
   },
   {
-    "name": "Reviews",
-    "href": "#reviews"
+    "name": "Reviews",    "href": "#reviews"
   },
   {
-    "name": "FAQ",
-    "href": "#faq"
+    "name": "FAQ",    "href": "#faq"
   },
   {
-    "name": "Hero",
-    "href": "#hero"
+    "name": "Hero",    "href": "#hero"
   },
   {
-    "name": "Pricing",
-    "href": "#pricing"
+    "name": "Pricing",    "href": "#pricing"
   },
   {
-    "name": "Cta",
-    "href": "#cta"
+    "name": "Cta",    "href": "#cta"
   }
 ];
 
@@ -39,10 +33,9 @@ export default function Layout() {
       <SectionErrorBoundary name="navbar">
         <NavbarFloatingLogo
       logo="Dyson Refurb"
+      logoImageSrc="https://img.b2bpic.net/free-photo/logo.png"
       ctaButton={{
-        text: "Buy Now",
-        href: "#buy",
-      }}
+        text: "Buy Now",        href: "#buy"}}
      navItems={navItems} />
       </SectionErrorBoundary>
       <main className="flex-grow">
@@ -54,41 +47,27 @@ export default function Layout() {
       copyright="© 2026 Brand. All rights reserved."
       columns={[
         {
-          heading: "Product",
           links: [
             {
-              text: "Features",
-              href: "#features",
-            },
+              href: "#features"},
             {
-              text: "Pricing",
-              href: "#pricing",
-            },
+              href: "#pricing"},
           ],
         },
         {
-          heading: "Company",
           links: [
             {
-              text: "About",
-              href: "#about",
-            },
+              href: "#about"},
             {
-              text: "Contact",
-              href: "#contact",
-            },
+              href: "#contact"},
           ],
         },
       ]}
       links={[
         {
-          text: "Privacy",
-          href: "#",
-        },
+          href: "#"},
         {
-          text: "Terms",
-          href: "#",
-        },
+          href: "#"},
       ]}
     />
       </SectionErrorBoundary>
