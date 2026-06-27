@@ -45,6 +45,12 @@ export default function Layout() {
         <FooterSimple
       brand="Brand"
       copyright="© 2026 Brand. All rights reserved."
+      links={[
+        {
+          label: "Features",          href: "#features"},
+        {
+          label: "Pricing",          href: "#pricing"},
+      ]}
       columns={[
         {
           title: "Company",          items: [
